@@ -90,9 +90,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Navigate to={`${contextPath}/home`} replace />} />
-      <Route path={`${contextPath}/home`} element={<MainLayout contextPath={contextPath} apiUrl={apiUrl} />} exact />
-      <Route path={`${contextPath}/*`} element={<SubLayout contextPath={contextPath} apiUrl={apiUrl} />} />
+      <Route path="/" element={<Navigate to="/home" replace />} />
+      <Route path="/home" element={<MainLayout contextPath={contextPath} apiUrl={apiUrl} />} exact />
+      <Route path="/*" element={<SubLayout contextPath={contextPath} apiUrl={apiUrl} />} />
       <Route path="*" element={<div>없는 페이지에요</div>} />
     </Routes>
   )
