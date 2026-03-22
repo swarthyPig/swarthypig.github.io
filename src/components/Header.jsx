@@ -1,5 +1,6 @@
 import { useState, useEffect, Suspense } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 import profileSquare1 from '@img/profile/profile-square-1.jpg'
 
@@ -16,14 +17,14 @@ function Header(props) {
 
     document.addEventListener('scroll', toggleScrolled)
     window.addEventListener('load', toggleScrolled)
-    window.addEventListener('load', navmenuScrollspy)
-    document.addEventListener('scroll', navmenuScrollspy)
+    //window.addEventListener('load', navmenuScrollspy)
+    //document.addEventListener('scroll', navmenuScrollspy)
 
     return () => {
       document.addEventListener('scroll', toggleScrolled)
       window.addEventListener('load', toggleScrolled)
-      window.addEventListener('load', navmenuScrollspy)
-      document.addEventListener('scroll', navmenuScrollspy)
+      // window.addEventListener('load', navmenuScrollspy)
+      // document.addEventListener('scroll', navmenuScrollspy)
     }
   }, [])
 
@@ -37,7 +38,7 @@ function Header(props) {
             <img src={profileSquare1} alt="" className="img-fluid rounded-circle" />
           </div>
 
-          <a href="/home" className="logo d-flex align-items-center justify-content-center">
+          <a href="/" className="logo d-flex align-items-center justify-content-center">
             <h1 className="sitename">정영관</h1>
           </a>
 
@@ -55,16 +56,24 @@ function Header(props) {
 
           <ul>
             <li>
-              <a href="#hero">Home</a>
+              <HashLink smooth to="/#hero">
+                Home
+              </HashLink>
             </li>
             <li>
-              <a href="#about">About</a>
+              <HashLink smooth to="/#about">
+                About
+              </HashLink>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <HashLink smooth to="/#resume">
+                Resume
+              </HashLink>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <HashLink smooth to="/#portfolio">
+                Portfolio
+              </HashLink>
             </li>
             {/* <li>
               <a href="#services">Services</a>

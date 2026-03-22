@@ -12,7 +12,7 @@ function Portfolio7() {
           <nav className="breadcrumbs">
             <ol>
               <li>
-                <a href="/home">Home</a>
+                <a href="/#/home">Home</a>
               </li>
               <li className="current">Portfolio Details</li>
             </ol>

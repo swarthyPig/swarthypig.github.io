@@ -5,6 +5,10 @@ import Footer from '../components/Footer'
 import routes from '../routes.jsx'
 
 function SubLayout(props) {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <>
       <header id="header" className="header d-flex align-items-center fixed-top">

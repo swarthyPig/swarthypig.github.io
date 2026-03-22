@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, Suspense } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ReactTyped } from 'react-typed'
+import { HashLink } from 'react-router-hash-link'
 
 import PureCounter from '@srexi/purecounterjs'
 
@@ -72,12 +73,12 @@ function Home(props) {
                 </div>
 
                 <div className="hero-actions" data-aos="fade-up" data-aos-delay="300">
-                  <a href="#portfolio" className="btn btn-primary">
+                  <HashLink smooth to="/#portfolio" className="btn btn-primary">
                     View My Projects
-                  </a>
-                  <a href="#resume" className="btn btn-outline">
+                  </HashLink>
+                  <HashLink smooth to="/#resume" className="btn btn-outline">
                     Go Resume
-                  </a>
+                  </HashLink>
                 </div>
 
                 <div className="social-links" data-aos="fade-up" data-aos-delay="400">
@@ -712,7 +713,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/1">
+                          <a href="/#/sub/1">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -739,7 +740,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/2">
+                          <a href="/#/sub/2">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -766,7 +767,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/3">
+                          <a href="/#/sub/3">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -793,7 +794,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/4">
+                          <a href="/#/sub/4">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -820,7 +821,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/5">
+                          <a href="/#/sub/5">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -847,7 +848,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/6">
+                          <a href="/#/sub/6">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -874,7 +875,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/7">
+                          <a href="/#/sub/7">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -901,7 +902,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/8">
+                          <a href="/#/sub/8">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -928,7 +929,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/9">
+                          <a href="/#/sub/9">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -955,7 +956,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/10">
+                          <a href="/#/sub/10">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -982,7 +983,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/11">
+                          <a href="/#/sub/11">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
@@ -1009,7 +1010,7 @@ function Home(props) {
                           >
                             <i className="bi bi-arrows-angle-expand"></i>
                           </a> */}
-                          <a href="/sub/12">
+                          <a href="/#/sub/12">
                             <i className="bi bi-arrow-right"></i>
                           </a>
                         </div>
