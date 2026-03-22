@@ -1,0 +1,60 @@
+{
+  "name": "my_portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development vite --host --mode development",
+    "build": "cross-env NODE_ENV=production vite build --mode production",
+    "lint": "eslint . --config eslint.config.js --fix",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,json}\"",
+    "preview": "vite preview --port 80",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.11.2",
+    "@rolldown/plugin-babel": "^0.2.1",
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "babel-plugin-react-compiler": "^1.0.0",
+    "cross-env": "^10.1.0",
+    "env-cmd": "^11.0.0",
+    "glightbox": "^3.3.1",
+    "isotope-layout": "^3.0.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-images-loaded": "^2.0.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.14.2",
+    "react-typed": "^2.0.12",
+    "rolldown": "^1.0.0-rc.10",
+    "web-vitals": "^5.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.0",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "prettier": "^3.8.1",
+    "vite": "^8.0.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "homepage": "https://swarthypig.github.io/"
+}
