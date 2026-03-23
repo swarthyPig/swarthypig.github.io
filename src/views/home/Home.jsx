@@ -9,6 +9,7 @@ import ImagesLoaded from 'imagesloaded'
 import Isotope from 'isotope-layout'
 
 import profileSquare1 from '@img/profile/profile-square-1.jpg'
+import profileSquare1Kakao from '@img/profile/profile-square-1-kakao.jpg'
 import signature1 from '@img/misc/signature-1.png'
 
 import portfolio1 from '@img/sub/sub-1.jpg'
@@ -173,6 +174,7 @@ function Home(props) {
               <div className="profile-image-wrapper">
                 <div className="profile-image">
                   <img src={profileSquare1} alt="Profile" className="img-fluid" />
+                  <img src={profileSquare1Kakao} alt="Profile" className="img-fluid" style={{ display: 'none' }} />
                 </div>
                 <div className="signature-section">
                   <img src={signature1} alt="Signature" className="signature" />
