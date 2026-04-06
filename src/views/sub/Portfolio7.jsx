@@ -80,7 +80,7 @@ function Portfolio7() {
                       <div id="portfolio-details-collapse-1" className="accordion-collapse collapse show" data-bs-parent="#portfolio-details-projectAccordion">
                         <div className="accordion-body">
                           <ul className="achievements">
-                            <li>기간 : 2021-03-01 ~ 2021-05-01</li>
+                            <li>기간 : 2021-03-01 ~ 2021-06-01</li>
                             <li>개발 환경 : Egov3.9 Spring Framework, java1.8, jsp, javascript, jQuery, Bootstrap</li>
                             <li>DBMS : MariaDB</li>
                             <li>서버 및 배포 : Linux Ubuntu 18.04, Docker, Nginx, Tomcat8.5</li>
